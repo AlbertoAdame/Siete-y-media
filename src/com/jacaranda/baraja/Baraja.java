@@ -13,6 +13,7 @@ public abstract class Baraja implements Repartible {
 		this.numCartas = numCartas;
 		this.siguiente = 0;
 		this.cartas = new Carta[numCartas];
+		barajar();
 
 	}
 

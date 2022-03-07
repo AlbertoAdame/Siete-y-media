@@ -2,7 +2,7 @@ package com.jacaranda.baraja;
 
 import java.util.Objects;
 
-public class Carta implements Comparable<Carta>{
+public class Carta{
 	private int number;
 	private String palo;
 
@@ -59,11 +59,11 @@ public class Carta implements Comparable<Carta>{
 		return resultado;
 	}
 
-	@Override
-	public int compareTo(Carta o) {
-		// TODO Auto-generated method stub
-		return 0;
-	}
+//	@Override
+//	public int compareTo(Carta o) {
+//		// TODO Auto-generated method stub
+//		return 0;
+//	}
 
 //	@Override
 //	public String toString() {

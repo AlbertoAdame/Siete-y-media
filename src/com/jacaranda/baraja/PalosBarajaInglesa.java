@@ -1,6 +1,6 @@
 package com.jacaranda.baraja;
 
 public enum PalosBarajaInglesa {
-	TREBOLES, CORAZONES, PICAS, ROMBOS
+	TREBOLES, CORAZONES, PICAS, DIAMANTES
 
 }
